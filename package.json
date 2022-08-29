@@ -1,6 +1,6 @@
 {
     "name": "@yaireo/react-bouncer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/yairEO/react-bouncer",
     "description": "Wrap components with a debounce, throttle, or any other delayed-rendering method, to stop them from re-rendering often when their props change",
     "keywords": [
