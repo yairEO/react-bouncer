@@ -28,7 +28,7 @@ then wrapping those often-rendered components with `bouncer` HOC should alleviat
 
 ## Install:
 
-Use from [CDN](https://unpkg.com/@yaireo/\react-bouncer) / Download from this repo / [NPM](https://www.npmjs.com/package/@yaireo/react-bouncer)
+Use from [CDN](https://unpkg.com/@yaireo/react-bouncer) / Download from this repo / [NPM](https://www.npmjs.com/package/@yaireo/react-bouncer)
 
 ```bash
 npm i @yaireo/react-bouncer -S
