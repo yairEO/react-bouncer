@@ -13,8 +13,18 @@
   </a>
 </p>
 
+## Motivation
+[`React.memo`](https://reactjs.org/docs/react-api.html#reactmemo) can be used to control whether a certain (wrapped) component should be rendered or not,
+by providing it with custom method as the a second paramater, but `memo` is not helpful in all situations.
 
+Sometimes it is wished to limit the number of times a component is rendered, for example, to a specific FPS or just to debounce it, so if it is called often,
+with different props, it will only actually re-render once those often calls are ceased (for enough time).
 
+Sometimes components are very "expensive" to to re-render, in terms of performance (intense CPU usage), or they do async operations such as network requests.
+Assuming the parent-component which is causing these re-renders (by updating props often) cannot be refactored, or the cause is a deep mystery (due to code complexity),
+then wrapping those often-rendered components with `bouncer` HOC should alleviate the symptoms.
+
+<br>
 
 ## Install:
 
