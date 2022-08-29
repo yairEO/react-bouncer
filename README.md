@@ -37,7 +37,7 @@ npm i @yaireo/react-bouncer -S
 ## Usage Examples:
 
 ```js
-import {bouncer} from '@yaireo/react-bouncer'
+import bouncer from '@yaireo/react-bouncer'
 
 // simplified example for a component which gets rendered often due to props change
 const Foo = ({x,y}) => `${x} ${y}`;
