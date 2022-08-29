@@ -1,7 +1,7 @@
 /**
   * @yaireo/react-bouncer - Wrap components with a debounce, throttle, or any other delayed-rendering method, to stop them from re-rendering often when their props change
   *
-  * @version v1.0.2
+  * @version v1.0.3
   * @homepage https://github.com/yairEO/react-bouncer
   * @author Yair Even-Or <vsync.design@gmail.com>
   */
