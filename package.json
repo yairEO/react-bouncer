@@ -23,13 +23,25 @@
         "yarn": false,
         "yolo": true
     },
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            [
+                "@babel/preset-react",
+                {
+                    "runtime": "automatic"
+                }
+            ]
+        ]
+    },
     "scripts": {
+        "start": "npm run build && npm run header",
+        "build": "babel src/react-bouncer.js --out-file react-bouncer.js --source-maps",
+        "header": "headr react-bouncer.js -o=react-bouncer.js --version --homepage --author",
+        "version": "npm run build && npm run header && git add .",
         "prepublishOnly": "pkg-ok"
     },
-    "author": {
-        "name": "Yair Even-Or",
-        "email": "vsync.design@gmail.com"
-    },
+    "author": "Yair Even-Or <vsync.design@gmail.com>",
     "main": "react-bouncer.js",
     "repository": {
         "type": "git",
@@ -39,12 +51,18 @@
         "url": "https://github.com/yaireo/react-bouncer/issues"
     },
     "files": [
-        "react-bouncer.js"
+        "react-bouncer.js",
+        "react-bouncer.js.map"
     ],
     "peerDependencies": {
         "react": "^16.18.0"
     },
     "devDependencies": {
-        "lodash.debounce": "^4.0.8"
+        "lodash.debounce": "^4.0.8",
+        "headr": "^0.0.4",
+        "@babel/cli": "^7.18.10",
+        "@babel/core": "^7.18.13",
+        "@babel/preset-env": "^7.18.10",
+        "@babel/preset-react": "^7.18.6"
     }
 }
