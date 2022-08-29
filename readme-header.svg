@@ -1,0 +1,37 @@
+<svg width="550" height="100" fill-rule="evenodd" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+	<style>
+		<!--
+		put this URL:
+		https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&text=React%20Bouncer
+
+		Here:
+		https://amio.github.io/embedded-google-fonts/
+		-->
+		@font-face {
+			font-family: 'Dancing Script';
+			font-style: normal;
+			font-weight: 600;
+			src: url(data:font/woff2;base64,d09GMgABAAAAAAoAABAAAAAAEMgAAAmiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGiIbgkocgQgGYD9TVEFUKgB0EQgKkhSPGQsgAAE2AiQDPAQgBYUoByAMBxsXDsjEB/ht9j4lfjr8YpP2osCaE6tWgbFOvGu4ayNX6U4W2V+5TLdd1v+/tVZ37g5PNOhnlRAhZF6nxN2/g8z8M8dcI5GoGsWsUSnFayekjoV0eRO+VCLCFkxVEACEmBUS4ID/oM0W1E0BErFIBSsnr7AS4rnTl86HGJzXx/1u1JrjWzwf/Hk+ByzwufckSI0LzQq74Qfv5T+8SyHA+0XLBB+CQuAsnws2eEgEInQiG6wn4I4I5BYNMBJt5bNQCDVCWWDVFYHFDILN/IY3ZJ6AywyCx3yDCOYH8JnvEMl8DpL5BQLmSwiZXyBivoGY+S58OeYnsJkfmfEPEqMTD7eCdQ5YjfMbl0I5t7F+OsRk0nehmAU9eOTCe4S8QkVgpDN9yMw8UQmy4UIxWIi8IiJwgjMR23OIn1i14AKsAKt2MnjXSxBTkIpr74uwOXCD29+rV1xSnIvzev+w2O3/fxvGySdSg4m3w4lC1n0jVQ79DKFSVTSCtaK+YelcphsMkZ0U7gIHIyPbOJGDaZxJ9e04oJCFckzHTPiwAIuxjGEStHmCzBeW3oP5jDnPHGC2MVuZLUwH08a0ktbhLoFAJsNAwukZMTdXA+yhAIdraOYUhqxykeD0CvZPZoPF4eRIMoSehGhRZpowNX1YxkiRsEpBcEWcGSIutgzcJZoEwSOCYDgcnq5ydmCADBwmaboycJJo6jJ0hcN4Rtrh67vJwM5W4lZYEOzvfwA/fZtO7+8/cwAJNOwTr7mxhyIwoKw5PfBwYGDA6c41whKuATme2UnsCktDv90BdOyB/v7+svbjdYsGmTRdFDhLNFm8pyB4B/7j8W1dRNNeMnD7Pk3DLwjeC4dtbYKWHTvg393bC3+HIBiuUYVomgxc1De1EefpqsDA5hhB8Az8ITKgb+sjmlolgO+vc2JaXIh+DZ4opEF6czP8HR17nlW4iqp3he9dcvLdp6cXZN+0KQ9JlEkM7FS3HUIe0bZLEIRvs7HPi3ChINQLf0uB9VyqEH27KnCRB146V2mHqrk3tDnXRvdseweIpkPnSnslbW8RBI+dM6hCNBnYqT5N1/SFiaZOMnAe/i1VfXjtIaLpZHyITtR3hdNaiaZzgmAH/O1K/4kT++EPhVJVuHXvkiGutyLycMua1p1qomWH6lA4fA68pTZPcjCIfcJDcJkmAwEyRILcNZphSLgP6GEdKDx3KXzIQDDv9S8h6V44TW6+dyPR1KbZff50blaalpPaLoXDMToG/HtOnBHOEdVKpwcGzOdpsvPWnhNiTPamxzBH0HcD0qbM2HUPwvnMXbfunbtlup+/7dEtaW9rS23tDUm5ikWiWommvn0ZRd4PPeNkE8pDJ3bT52+TgaPqEO0Mnrpk6HzHMzTbT583/idgD+733p+YK8wRor16xFEHnx85LL3m7bg57hGltsQfvNrxfLuiVKYuStqqLjStU5PrysqN4xNXpbyQ4X/rxfzP+VzjJ7zchdFlMRWkl5JkOuLd/3oNYz3cKst/KdrhoybPzF3uXKaR3100R1ljS89LT40tVTrZHCo6e+gmDK7UXPZUuX1D6hMNk1OOqAqN3+sEPaMMFY6XrSvsy9LXUQXLT1ZGcGz3eSfzdTVyl32ystiRnJ+WbM3Jc1WaKiV53NKfR0zPmTpp2k/uauONxXON41MzCtMzRpbpzkdnu4+jmBq0xUaVDSkZ6ylNSLQGYgyqZzWWSFWU3tgyOWmcZqzRotPMGZqdlmdNZ7urDSRprlLJRd/KdNX59nLGl1U2zhmXWGpk89jPZA/F/CFpHndWSvzkMd4iW6LVZjBt0SgOHB1vIFcJ9fNc+aaSGNMn1oRS29iSvKg15VNmZWKhbYwnO81hn+GtnpDp0N1IiLdn5afVUoe4BpJfMPiT3lrpGlf8umhfRe2slGmhZo/5bL1JsIrUWnhxWfAq4nwm1Ycfq7VlEvNnIwrSylzyf97hZOnylUXRdecklEl0/M3mMTm5ttikhhhzulMj+16gdTrzFE/caSX/IyvKro2lFB7d22oeJ21fMOuiSvOXXDn7tUFjnkNX0x9nFUfHxU/aE5ZJeqad/Medb7eImrfrKkfMb3uGKrXovhYpl1u1gzisiz1CGQ3uuzq92NqQXi+4/p5jWmGH1CAQCV7icjs5Qs4rf1LmrhaF9C+BdpSovHm0NbesKh21Drsl3Rq1RuNZZFliuOAJ5STPdBWdkZL/iRSJBSNnneDL+IljWdlG3wRuAjuCXW5uTLW+ZUqtnxhX9N7L3sm1GfCaLPuTjHKvIf8HYcT+jj5ztqaQ4jpvSGVLg3G5TMvCnV4B29bj0kqOyFQ7RuUver8qp7LYFWd8d5cqQsITPncB/brYI5RR7+7T6sVWdVaGP2Uq66feqLjquJn3O6QGq1hQFkHu4gp/fYWkzMFlCulfAq3jv6zn/7d6ysvScSl51Jhs17b5w4e6PdlpdvsMb/WETJdud0K83Z2fWht1mGvmy69ERmf48ipfcpR6PEWJSbo9Cak53jnOo1wTX37sb8pWnTqu9PUn+yonzkw/dOT4T70VxshGoZr6Pc6TT7XfqnSZBKuFpgepxSiIsm1PcFDVGQV//qAj1UOiS9m6/6USq4VS+ZTRvw7X5/oDYhXKIsS5Edy9HMFvXX9T5jXPK6R/CTT2/8qfMwz3lJdl2mOvms19PTqjy7o1ytt3NUleePJUjbdP9s62O38nS33b174yuOxdrlqvBgCAAMBCVsrh1Y6pkpG/8dnsbwGAlhFCAPioetspRvb/l1w5ZywAHlgAAAJgtw8ky/+NkTFcrvyv3yshesXTOQBrLSysidATJ5iviQLmb6Kc+ZEIM+8Ti5nfiLrpVkQU8zdxnGGIJuZb1g7mR9YT5rdA1SXYgQgcGcDa7IycsY6vH2CacSIBQk0obzQEnPhaw4IY72rYyEJrX87LGi70WKvhwY5StRjpMHJiXDdKGWOr1wEV8GEeGpGFBZiLWaiBD42oRwOWHssvxUIMh0tttwQzsRiNWIilnDnXIhLnwjlYbVcPF0qQh0LkTGy+Jo3j61FhPrAjDanGxSHYAvZRCqlwIhnJSLmKOALFKEExcnssLCnPr8cyzGUDLXbqT+moqcrZWICFWPUiJQHKgkJ+SyYoVKIBPlDhWCmrvACz4cPMu4keLCMTiGJLmDmRWOMSnViPxhe9yzBjVTgTCzDvCe8CLFgXzoUPdRQB8UN10VA9CXZQWBEIqRUuITl/OXyYpYx5IbwUihXOa2ToFp1ogXPQluYzMd1Ixa7icYJ5PsR5FQAAAA==) format('woff2');
+		}
+
+        svg {
+            width: 100%;
+            fill: #F2385A;
+        }
+
+        text {
+            font: 600 5em/1 "Dancing Script", Arial;
+            white-space: pre;
+        }
+
+		tspan { fill: DodgerBlue; }
+	</style>
+	</defs>
+    <!-- Symbol-->
+	<symbol id="s-text">
+		<text text-anchor="middle" x="50%" y="50%" dy=".35em">React <tspan>Bouncer</tspan></text>
+	</symbol>
+	<!-- Duplicate symbols-->
+	<use xlink:href="#s-text"></use>
+ </svg>

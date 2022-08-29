@@ -1,0 +1,50 @@
+{
+    "name": "@yaireo/react-bouncer",
+    "version": "1.0.0",
+    "homepage": "https://github.com/yairEO/react-bouncer",
+    "description": "Wrap components with a debounce, throttle, or any other delayed-rendering method, to stop them from re-rendering often when their props change",
+    "keywords": [
+        "react",
+        "hooks",
+        "debounce",
+        "throttle",
+        "delay",
+        "render"
+    ],
+    "license": "MIT",
+    "browserslist": [
+        ">1%",
+        "not dead",
+        "not ie < 11",
+        "not IE_Mob 11",
+        "not op_mini all"
+    ],
+    "np": {
+        "yarn": false,
+        "yolo": true
+    },
+    "scripts": {
+        "prepublishOnly": "pkg-ok"
+    },
+    "author": {
+        "name": "Yair Even-Or",
+        "email": "vsync.design@gmail.com"
+    },
+    "main": "react-bouncer.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yairEO/react-bouncer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yaireo/react-bouncer/issues"
+    },
+    "files": [
+        "react-bouncer.js"
+    ],
+    "peerDependencies": {
+        "react": "^16.18.0"
+    },
+    "devDependencies": {
+        "lodash.debounce": "^4.0.8"
+    }
+}
