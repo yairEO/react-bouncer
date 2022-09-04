@@ -15,7 +15,7 @@
 
 ## Motivation
 [`React.memo`](https://reactjs.org/docs/react-api.html#reactmemo) can be used to control whether a certain (wrapped) component should be rendered or not,
-by providing it with custom method as the a second paramater, but `memo` is unhelpful in some situations.
+by providing it with custom method as the a second parameter, but `memo` is unhelpful in some situations.
 
 Sometimes it is wished to limit the number of times a component is rendered, for example, to a specific FPS or just to debounce it, so if it is called often,
 with different props, it will only actually re-render once those often calls are ceased (for enough time).
