@@ -49,7 +49,7 @@ DebouncedFoo.displayName = 'DebouncedFoo';
 
 // use a `throttle` method instead of the default `debounce` (or use your own custom one)
 const ThrottleddFoo = bouncer(Foo, 300, throttle)
-DebouncedFoo.displayName = 'ThrottleddFoo';
+ThrottleddFoo.displayName = 'ThrottleddFoo';
 
 
 // use them in another component which might render them often with different props
