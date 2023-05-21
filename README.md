@@ -37,21 +37,19 @@ npm i @yaireo/react-bouncer -S
 ## Usage Examples:
 
 ```js
-import bouncer from '@yaireo/react-bouncer';
-import throttle from 'lodash.throttle';
+import bouncer from '@yaireo/react-bouncer'
+import throttle from 'lodash.throttle' // throttle example
 
 // simplified example for a component which gets rendered often due to props change
-const Foo = ({x,y}) => `${x} ${y}`;
-
+const Foo = ({x,y}) => `${x} ${y}`
 
 // uses 300ms `debounce` by default
-const DebouncedFoo = bouncer(Foo);
-DebouncedFoo.displayName = 'DebouncedFoo';
+const DebouncedFoo = bouncer(Foo)
+DebouncedFoo.displayName = 'DebouncedFoo'
 
 // use a `throttle` method instead of the default `debounce` (or use your own custom one)
-const ThrottleddFoo = bouncer(Foo, 300, throttle);
-ThrottleddFoo.displayName = 'ThrottleddFoo';
-
+const ThrottleddFoo = bouncer(Foo, 300, throttle)
+ThrottleddFoo.displayName = 'ThrottleddFoo'
 
 // use them in another component which might render them often with different props
 const App = () => {
